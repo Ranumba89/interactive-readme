@@ -12,18 +12,17 @@ function generateMarkdown(answers) {
   ## Table of Contents
   * [Installation](#Installation)
   * [Usage](#usage)
-  * [License](#license)
-  * [Contributiona](#Contributions)
-  * [Test](#Test)
+  * [License](#License)
+  * [Contributions](#Contributions)
   * [Questions](#Questions)
   ## Installation
   * ${answers.Installation}
   ## Usage
   * Here is an example of the Project: ${answers.examples}
-  ## License ${licenses[answers.licenses]}
+  ## License 
+  * ${licenses[answers.licenses]}
   ## Contributions
   * Here is an additional file you will need to create: ${answers.contrubtions}
-  ## Test
   ## Questions 
   * If you have any questions please contact me at https://github.com/${answers.contact}
   
